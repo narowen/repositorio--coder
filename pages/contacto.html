@@ -23,13 +23,14 @@
 
     <main>
         <section id="contacto">
-            <form class="formulario">
                 <h3>Realice su consulta</h3>
                 <i>Nos comunicaremos lo antes posible</i>
+            <form action="https://formsubmit.co/88a83a9ce8462b6c056cc4d4bd311a13" method="POST">
                 <div class="contenedorInput">
-                    <input class="campo" type="text" placeholder="Ingrese su nombre">
-                    <input class="campo" type="text" placeholder="Ingrese su apellido">
-                    <input class="campo" type="email" placeholder="Ingrese su email">
+                    <label for="name">Nombre</label>
+                    <input class="campo"  name="nombre" type="text" placeholder="Ingrese su nombre">
+                    <input class="campo" name="apellido" type="text" placeholder="Ingrese su apellido">
+                    <input class="campo" name="email" type="email" placeholder="Ingrese su email" required>
                 </div>
                 <textarea class="campo" name="mensaje" id="mensaje" cols="30" rows="10"
                     placeholder="Ingrese su mensaje"></textarea>
