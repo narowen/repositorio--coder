@@ -47,6 +47,11 @@ h1 a {
     text-transform: uppercase;
 }
 
+.header nav ul li a:hover {
+    background-color: #8d8f84;
+    padding: 5px;
+}
+
 .imagenFondo {
     background-image: url("../img/postre.jpg");
     background-size: cover;
